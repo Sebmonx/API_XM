@@ -668,6 +668,7 @@ class VariableSIMEM:
         self.__variable_column = self.__json_file[self.__var]['var_column']
         self.__date_column = self.__json_file[self.__var]['date_column']
         self.__version_column = self.__json_file[self.__var]['version_column']
+        self.__value_column = self.__json_file[self.__var]['value_column']
         self.__start_date = _Validation.date(start_date)
         self.__end_date = _Validation.date(end_date)
         self.__quality_check = quality_check 
